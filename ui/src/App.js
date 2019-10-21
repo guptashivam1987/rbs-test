@@ -9,7 +9,7 @@ function App() {
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('firstName');
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [rowsPerPage, setRowsPerPage] = React.useState(10);
   const [count, setCount] = React.useState(0);
   
   const handleSort = (event, property) => {

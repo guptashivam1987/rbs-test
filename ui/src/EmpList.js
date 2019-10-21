@@ -82,7 +82,7 @@ function Row({row, index, handleClick}) {
       hover
       onClick={() => handleClick(index)}
       tabIndex={-1}
-      key={row.name}
+      key={row.id}
     >
       <TableCell component="th" id={labelId} scope="row">{row.id}</TableCell>
       <TableCell align="left">{row.firstName}</TableCell>
