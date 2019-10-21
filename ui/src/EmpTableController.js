@@ -1,10 +1,6 @@
 import React from 'react';
 import EmpTable from './EmpList'
 
-function createData(id,firstName,lastName,email,gender,phone,street,city,country,salary,dateOfJoining,department) {
-    return { id,firstName,lastName,email,gender,phone,street,city,country,salary,dateOfJoining,department};
-}
-
 export default class EmpTableController extends React.Component {
     state = {
         rows:[]
